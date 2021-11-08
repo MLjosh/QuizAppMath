@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:screenOrientation = "portrait"
+    android:background="@drawable/bgimage"
+    tools:context=".ResultActivity">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="@drawable/completelev"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp">
+
+        <TextView
+            android:id="@+id/result_text_High_Score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="165dp"
+            android:layout_marginBottom="7dp"
+            android:text="High Score: "
+            android:textAlignment="textStart"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/result_levelmode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Level Mode: "
+            android:textAlignment="textStart"
+            android:layout_marginBottom="7dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/result_Wrong_Ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Score: "
+            android:textAlignment="textStart"
+            android:layout_marginBottom="7dp"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/result_total_Ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total QN: "
+            android:textAlignment="textStart"
+            android:layout_marginBottom="7dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/result_Correct_Ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:text="Correct ANS: "
+            android:textAlignment="textStart"
+            android:textSize="25sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/result_bt_playAgain"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:text=""
+            android:background="@drawable/playagain"
+            />
+
+        <Button
+            android:id="@+id/result_bt_mainmenu"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:text=""
+            android:background="@drawable/home"
+            />
+
+        <Button
+
+            android:id="@+id/result_bt_nextlevel"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:background="@drawable/selectlev"
+            android:text=""
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

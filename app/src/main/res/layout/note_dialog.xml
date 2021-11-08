@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/incorrect_answer_dialog2"
+    android:screenOrientation = "portrait"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+
+        android:id="@+id/notetext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:padding="20dp"
+        android:scrollbars="vertical"
+        android:text="Achieve 70 pts"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttons"
+        android:text="OK"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+</LinearLayout>

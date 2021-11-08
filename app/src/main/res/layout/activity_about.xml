@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:screenOrientation = "portrait"
+    android:background="@drawable/bgimage"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/whitepaint"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:padding="30dp"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:text="The game can be played by everyone, but it is intended for elementary and secondary education levels. It is made to improve your mathematical skills.
+" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+           android:textAlignment="center"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:text="Develop by:\n3BSIT-BLOCK05 GROUP 5 for Subject ITE-301" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonbb"
+        android:background="@drawable/buttonred"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:padding="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="back" />
+
+</LinearLayout>
